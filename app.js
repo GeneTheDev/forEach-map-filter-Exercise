@@ -50,7 +50,8 @@ Examples:
 
 */
 function showFirstAndLast(arr) {
-    let array1 = ['colt', 'matt', 'tim', 'test'], result = [];
+    let array1 = ['colt', 'matt', 'tim', 'test'];
+    let result = [];
     array1.forEach(function (val) {
         result.push(val.charAt(0));
         result.push(val.charAt(val.length - 1));
